@@ -1,0 +1,21 @@
+{
+    "Arguments":[
+        {
+            "ae_weight": "./weights/cloth_encoder_f0.pth",
+            "ac_extractor_weight": "./weights/feature_extractor_f0.pth",
+            "ac_weight": "./weights/attribute_classifier_f0.pth",
+            "input_cloth_dir": "./data/TOTAL/input_only",
+            "cloth_measurement_dir": "./data/TOTAL/cloth_att_only",
+            "frontview_imgs_dir": "./data/TOTAL/frontview_only",
+            "body_measurement_dir": "./data/TOTAL/human_factor_only",
+            "groundtruth_dir": "./data/TOTAL/gt_mask_only",
+            "img_resolution": 512,
+            "batch_size": 8,
+            "loss": "dice",
+            "real_cloth_dir": "./VTNet_test/input_cloth",
+            "real_cloth_measurement_dir": "./VTNet_test/cloth_measurement",
+            "real_frontview_dir": "./VTNet_test/frontview",
+            "real_body_measurement_dir": "./VTNet_test/body_measurement"            
+        }
+    ]
+}
