@@ -7,6 +7,8 @@
 This paper is accepted in the IEEE ICIP 2023.
 You can find the full paper at [arXiv](https://arxiv.org/pdf/2306.13908.pdf).
 
+Cho, Yunmin, Lala Shakti Swarup Ray, Kundan Sai Prabhu Thota, Sungho Suh, and Paul Lukowicz. "ClothFit: Cloth-Human-Attribute Guided Virtual Try-On Network Using 3D Simulated Dataset." arXiv preprint arXiv:2306.13908 (2023).
+
 ## Abstract
 Online clothing shopping has become increasingly popular, but the high rate of returns due to size and fit issues has remained a major challenge. To address this problem, virtual try-on systems have been developed to provide customers with a more realistic and personalized way to try on clothing. In this paper, we propose a novel virtual try-on method called ClothFit, which can predict the draping shape of a garment on a target body based on the actual size of the garment and human attributes. Unlike existing try-on models, ClothFit considers the actual body proportions of the person and available cloth sizes for clothing virtualization, making it more appropriate for current online apparel outlets. The proposed method utilizes a U-Net-based network architecture that incorporates cloth and human attributes to guide the realistic virtual try-on synthesis. Specifically, we extract features from a cloth image using an auto-encoder and combine them with features from the user’s height, weight, and cloth size. The features are concatenated with the features from the U-Net encoder, and the U-Net decoder synthesizes the final virtual try-on image. Our experimental results demonstrate that ClothFit can significantly improve the existing state-of-the-art methods in terms of photo-realistic virtual try-on results.
 
